@@ -1,0 +1,23 @@
+.theSong {
+	min-height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	.theSong__cover {
+		width: 30%;
+		border-radius: 50%;
+		user-select: none;
+	}
+	h2 {
+		padding: 3rem 1rem 1rem 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.theSong {
+		img {
+			width: 60% !important;
+		}
+	}
+} ;
